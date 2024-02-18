@@ -4,10 +4,10 @@ import { Calculator } from "./Calculator";
 const App = () => {
   return (
     <>
-    <Calculator number={10}/>
-    <Calculator number={10}/>
-    <Calculator number={10}/>
-    <Calculator number={10}/>
+    <Calculator numberA={5} numberB={11}/>
+    <Calculator numberA={10} numberB={22}/>
+    <Calculator numberA={4} numberB={14}/>
+    <Calculator numberA={16} numberB={18}/>
     </>
   );
 }
