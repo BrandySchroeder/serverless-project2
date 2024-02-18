@@ -3,7 +3,12 @@ import { Calculator } from "./Calculator";
 
 const App = () => {
   return (
-    <Calculator />
+    <>
+    <Calculator number={10}/>
+    <Calculator number={10}/>
+    <Calculator number={10}/>
+    <Calculator number={10}/>
+    </>
   );
 }
 
