@@ -2,13 +2,19 @@ import './App.css';
 import { Calculator } from "./Calculator";
 
 const App = () => {
+    const styles = {
+      container: {
+        padding: 40,
+        backgroundColor: "purple",
+    }
+  }
   return (
-    <>
-    <Calculator numberA={5} numberB={11}/>
-    <Calculator numberA={10} numberB={22}/>
-    <Calculator numberA={4} numberB={14}/>
-    <Calculator numberA={16} numberB={18}/>
-    </>
+    <div style={styles.container}>
+    <Calculator numberA={5} numberB={1}/>
+    <Calculator numberA={10} numberB={2}/>
+    <Calculator numberA={15} numberB={3}/>
+    <Calculator numberA={20} numberB={4}/>
+    </div>
   );
 }
 

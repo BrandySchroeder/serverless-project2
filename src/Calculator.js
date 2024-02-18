@@ -1,9 +1,13 @@
 import React from "react"; 
 
-export const Calculator = (props) => {
-    console.log(props);
+export const Calculator = ({numberA, numberB}) => {
     return (
-        <h1>{props.numberA} + {props.numberB} = {props.numberA + props.numberB}</h1>
+        <>
+            <h2>{numberA} + {numberB} = {numberA + numberB}</h2>
+            <h2>{numberA} - {numberB} = {numberA - numberB}</h2>
+            <h2>{numberA} * {numberB} = {numberA * numberB}</h2>
+            <h2>{numberA} / {numberB} = {numberA / numberB}</h2>
+        </>
 
     );
 
